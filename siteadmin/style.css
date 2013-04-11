@@ -1,0 +1,205 @@
+﻿body
+{
+	background-color: rgb(255,250,250); margin :0; padding: 0; height: 100%;
+}
+
+header
+{
+	position: relative;
+	color: rgb(240,240,240);
+	background-color: rgb(15,15,15);
+	width: 100%;
+	margin:0;
+	height: 70px;
+	padding-top: 25px;
+	text-align: right;
+}
+header #logo a
+{
+	background: url("img/linkBackground.png"); border: 2px solid #760001; border-radius: 5px; margin: 25px; font-size: 2.5em; color: rgb(240,240,240); text-decoration: none;
+}
+header p
+{
+	margin-top:0; margin-left: 25px; font-size: 1.2em;
+}
+#logo
+{
+	display: inline-block; position: absolute;  left:0; top: 25px; text-align: left;
+}
+header a
+{
+	margin-right: 25px;
+}
+footer
+{
+	background-color: rgb(40,40,40); height: 30px; width: 100%; margin: 0; padding: 0; border-top: 2px solid rgb(15,15,15);
+}
+
+nav
+{
+	background-color: rgb(40,40,40); size: 100%; position: relative; height: 30px; margin: auto; color: rgb(240,240,240); font-size: 1.5em;
+	padding: 0; border-top: 2px solid rgb(15,15,15); border-bottom: 2px solid rgb(15,15,15);
+}
+
+section
+{
+	background-color: rgb(255,255,255); position: absolue;width: 100%; margin: auto; margin-top: 0px; margin-bottom: 0px; bottom:0; top: 0; padding: 0;
+}
+section table
+{
+	margin: 0; width: 100%; background-color: rgb(255,255,255);
+}
+section td
+{
+	vertical-align: top;
+}
+article, aside
+{
+	z-index: 1;
+	display: inline-block;
+	margin: 0px;
+	background-color: rgb(255,255,255);
+	vertical-align: top;
+	height: 100%;
+	
+}
+
+
+
+aside
+{
+	min-height: 645px;
+	width: 225px;
+	background-color: rgb(15,15,15);
+}
+aside li
+{
+	list-style-type: none; margin: 0;
+}
+aside a
+{
+	color: rgb(240,240,240); text-decoration: none; font-size: 1.1em;
+}
+aside a:hover
+{
+	color: rgb(250,0,0); text-decoration: underline;
+}
+article
+{
+	width: 100%; margin-bottom: 25px;
+}
+
+
+.grise h1, .important h1
+{
+	font-size: 1.3em; color: rgb(250, 25,25);
+}
+ .grise h2,  .important h2
+{
+	font-size: 1em;
+}
+#affichage img
+{
+	width: 60px; margin: 0;
+}
+
+#affichage td p a
+{
+	color: rgb(250,25,25); background: none; border: none; text-decoration: underline;
+}
+#affichage table
+{
+	width: 850px; margin: auto;
+}
+
+.contenu
+{
+	text-align: center;
+	vertical-align: center;
+	margin: 0;
+	padding: 0;
+}
+.contenu table
+{
+	border: 2px solid rgb(220,220,220);
+	background-color: rgb(230,230,230);
+	color: rgb(40,40,40);
+	margin-bottom: 10px;
+}
+.contenu h1
+{
+	font-size: 1.9em; color: rgb(40,40,40); text-align: center;
+}
+.contenu h2
+{
+	font-size: 1em; color: rgb(15,15,15); text-align: center;
+}
+.contenu input[type=submit], input[type=button], input[type=file]
+{
+	background: url("img/linkBackground.png"); color: rgb(240,240,240); border: 1px solid rgb(250,70,70); border-radius: 5px; text-decoration: none; cursor: pointer;
+}
+.contenu input[type=text], .contenu select
+{
+	width: 175px;
+}
+.contenu textarea
+{
+	width: 400px;
+	height: 150px;
+}
+.contenu img
+{
+	width: 120px; border: 1px solid rgb(40,40,40); margin: 15px;
+}
+.contenu a
+{
+	text-align: center;
+}
+.important
+{
+	background-color: rgb(15,15,15); color: rgb(240,240,240); border: 1px solid rgb(40,40,40); border-top: 0; width: 150px;
+}
+.important h1
+{
+	color: rgb(240,240,240); font-size: 1.5em;
+}
+.tresGrand
+{
+	width: 550px; text-align: left; vertical-align: center; margin: auto; padding-right: 10px; padding-left: 10px;
+}
+.grand
+{
+	width: 350px; text-align: left; vertical-align: center; margin: auto; padding-right: 10px; padding-left: 10px;
+}
+.moyen
+{
+	width: 150px; margin: auto; padding-right: 10px; padding-left: 10px;
+}
+.grise
+{
+	background-color: rgb(230,230,230); color: rgb(40,40,40); border: 1px solid rgb(240,240,240); border-top: 0; width: 150px;
+}
+.normal
+{
+	background-color: rgb(255,255,255);
+}
+.petit
+{
+	width: 50px;
+}
+.bouton
+{
+	background: url("img/linkBackground.png"); color: rgb(240,240,240); border: 1px solid rgb(250,70,70); border-radius: 5px; text-decoration: none;
+}
+.bouton:active
+{
+	background: url("img/targetBackground.png");
+}
+.error
+{
+	color: red; text-align: center;
+}
+.fonce
+{
+	background-color: rgb(15,15,15); color: rgb(240,240,240); padding: 10px;
+}
